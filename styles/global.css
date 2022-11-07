@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeBg{
+  background: linear-gradient(180deg, #2A2744 0%, #110F1B 77.4%, #0A0910 100%);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.homeWrapper{
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+body {
+  overflow-x: hidden;
+}
