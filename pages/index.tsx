@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     <main>
       <div className='homeBg min-w-[800px]'>
         <div className='homeWrapper flex flex-col items-center'>
-          <Image src={CNSLogo} alt='cns logo' className='homeHeader w-16 h-12 z-10 absolute top-[25px] left-[61px]' />
+          <Image src={CNSLogo} alt='cns logo' className='homeHeader w-32 h-12 z-10 absolute top-[25px] left-[61px]' />
           <div className='relative flex justify-center items-center'>
             <picture className='w-full min-h-screen z-0' >
               <source srcSet={PlanetBgW} type='imge/webp' className='w-full min-h-screen z-0'/>
