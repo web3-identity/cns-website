@@ -1,12 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import PlanetBg from '../public/images/bg/planetBg.png';
+import PlanetBgW from '../public/images/bg/planetBg.webp';
 import CNSLogo from '../public/images/logos/logo.svg';
 import BlackHoleBg from '../public/images/bg/blackHoleBg.svg';
 import AnyWeb from '../public/images/icons/anyWeb.svg';
 import Scan from '../public/images/icons/scan.svg';
 import Fluent from '../public/images/icons/fluent.svg';
 import CloudBg from '/public/images/bg/cloudBg.png';
+import CloudBgW from '../public/images/bg/cloudBg.webp';
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +17,10 @@ const Home: React.FC = () => {
         <div className='homeWrapper flex flex-col items-center'>
           <Image src={CNSLogo} alt='cns logo' className='homeHeader w-16 h-12 z-10 absolute top-[25px] left-[61px]' />
           <div className='relative flex justify-center items-center'>
-            <Image src={PlanetBg} alt='background bg' className='w-full min-h-screen z-0' />
+            <picture className='w-full min-h-screen z-0' >
+              <source srcSet={PlanetBgW} type='imge/webp' className='w-full min-h-screen z-0'/>
+              <Image src={PlanetBg} alt='background bg' className='w-full min-h-screen z-0' priority />
+            </picture>
             <div className='absolute text-white text-6xl text-center'>
               <h1>你的Web3身份</h1>
               <h1 className='text-[105px]'>将从<span className='text-[#BFB5FF]'>.web3</span>开始</h1>
@@ -34,7 +39,10 @@ const Home: React.FC = () => {
               <Image src={Fluent} alt='Fluent Icon' className='z-10 w-full max-w-[172px]' />
             </div>
           </div>
-          <Image src={CloudBg} alt='cloud background' className='w-full' />
+          <picture className='w-full'>
+            <source srcSet={CloudBgW} type='imge/webp' className='w=full'/>
+            <Image src={CloudBg} alt='cloud background' className='w-full'/>
+          </picture>
         </div>
       </div>
     </main>
