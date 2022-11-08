@@ -10,3 +10,32 @@
 .homeWrapper{
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+html{
+  font-family: 'Inter';
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/MiSans-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/MiSans-Semibold.ttf') ;
+  font-style: normal;
+  font-weight: 600;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/MiSans-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+}
