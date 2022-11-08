@@ -13,7 +13,7 @@ import CloudBgW from '../public/images/bg/cloudBg.webp';
 const Home: React.FC = () => {
   return (
     <main>
-      <div className='homeBg'>
+      <div className='homeBg min-w-[800px]'>
         <div className='homeWrapper flex flex-col items-center'>
           <Image src={CNSLogo} alt='cns logo' className='homeHeader w-16 h-12 z-10 absolute top-[25px] left-[61px]' />
           <div className='relative flex justify-center items-center'>
@@ -21,9 +21,9 @@ const Home: React.FC = () => {
               <source srcSet={PlanetBgW} type='imge/webp' className='w-full min-h-screen z-0'/>
               <Image src={PlanetBg} alt='background bg' className='w-full min-h-screen z-0' priority />
             </picture>
-            <div className='absolute text-white text-6xl text-center'>
-              <h1>你的Web3身份</h1>
-              <h1 className='text-[105px]'>将从<span className='text-[#BFB5FF]'>.web3</span>开始</h1>
+            <div className='absolute text-white text-6xl text-center -translate-y-16 font-black'>
+              <p className='py-3'>你的Web3身份</p>
+              <p className='text-[105px] py-3'>将从<span className='text-[#BFB5FF]'>.web3</span>开始</p>
             </div>
           </div>
           <div className='mt-20 text-2xl flex flex-col items-center text-[#7A7880]'>
