@@ -18,7 +18,7 @@ html{
 
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/MiSans-Regular.ttf');
+  src: url('./fonts/MiSans-Regular.woff2') format('woff2');
   font-style: normal;
   font-weight: normal;
   font-display: auto;
@@ -26,16 +26,16 @@ html{
 
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/MiSans-Semibold.ttf') ;
+  src: url('./fonts/MiSans-Bold.woff2')format('woff2');
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-display: auto;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/MiSans-Bold.ttf');
+  src: url('./fonts/MiSans-Heavy.woff2')format('woff2');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-display: auto;
 }
