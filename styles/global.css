@@ -2,40 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-.homeBg{
-  background: linear-gradient(180deg, #2A2744 0%, #110F1B 77.4%, #0A0910 100%);
-  transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.homeWrapper{
-  transform: matrix(1, 0, 0, -1, 0, 0);
+#__next{
+  @apply relative min-h-screen pb-[226px];
+  background: linear-gradient(180deg, #0A0910 0%, #110F1B 22.6%, #2A2744 100%);
 }
 
 html{
-  font-family: 'Inter';
+  font-family: 'MiSans';
   scroll-behavior: smooth;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('./fonts/MiSans-Regular.ttf');
+  font-family: 'MiSans';
+  src: url('./fonts/MiSans-Regular.woff2');
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-display: auto;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('./fonts/MiSans-Semibold.ttf') ;
+  font-family: 'MiSans';
+  src: url('./fonts/MiSans-Semibold.woff2') ;
   font-style: normal;
   font-weight: 600;
   font-display: auto;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('./fonts/MiSans-Bold.ttf');
+  font-family: 'MiSans';
+  src: url('./fonts/MiSans-Black.woff2');
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-display: auto;
 }
