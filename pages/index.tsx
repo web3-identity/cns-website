@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <Image
         src={CNSLogo}
         alt="cns logo"
-        className="homeHeader w-[130px] h-[48px] z-10 absolute top-[30px] left-[60px] pointer-events-none select-none"
+        className="homeHeader w-[152px] h-[54px] z-10 absolute top-[30px] left-[60px] pointer-events-none select-none"
         draggable="false"
       />
       <div className="relative flex justify-center items-center aspect-[8/5]">
