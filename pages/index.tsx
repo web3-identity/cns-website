@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import PlanetBg from "/public/images/bg/planetBg.png";
-import CNSLogo from "/public/images/logos/logo.svg";
+import CNSLogo from "/public/images/logos/logo-tmp.svg";
 import BlackHoleBg from "/public/images/bg/blackHoleBg.svg";
 import AnyWeb from "/public/images/icons/anyWeb.svg";
 import Scan from "/public/images/icons/scan.png";
@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <Image
         src={CNSLogo}
         alt="cns logo"
-        className="homeHeader w-[152px] h-[54px] z-10 absolute top-[30px] left-[60px] pointer-events-none select-none"
+        className="homeHeader w-[160px] h-[60px] z-10 absolute top-[30px] left-[60px] pointer-events-none select-none"
         draggable="false"
       />
       <div className="relative flex justify-center items-center aspect-[8/5]">
