@@ -3,7 +3,7 @@ import Image from "next/image";
 import PlanetBg from "/public/images/bg/planetBg.png";
 import CNSLogo from "/public/images/logos/logo.svg";
 import BlackHoleBg from "/public/images/bg/blackHoleBg.svg";
-import AnyWeb from "/public/images/icons/anyWeb.png";
+import AnyWeb from "/public/images/icons/anyweb.png";
 import Scan from "/public/images/icons/scan.png";
 import Fluent from "/public/images/icons/fluent.png";
 import Heyfoo from "/public/images/icons/heyfoo.png";
