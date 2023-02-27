@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #__next{
-  @apply relative min-h-screen pb-[226px];
+  @apply relative min-h-screen pb-[480px];
   background: linear-gradient(180deg, #0A0910 0%, #110F1B 22.6%, #2A2744 100%);
 }
 
